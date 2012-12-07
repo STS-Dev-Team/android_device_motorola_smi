@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/smi.mk
+    $(LOCAL_DIR)/full_smi.mk

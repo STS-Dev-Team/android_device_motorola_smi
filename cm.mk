@@ -5,7 +5,7 @@ $(call inherit-product, vendor/cm/config/gsm.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
  
 ## Inherit device configuration
-$(call inherit-product, device/motorola/smi/smi.mk)
+$(call inherit-product, device/motorola/smi/full_smi.mk)
 
 PRODUCT_NAME := cm_smi
 
