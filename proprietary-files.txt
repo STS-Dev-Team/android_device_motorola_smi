@@ -46,7 +46,6 @@ etc/firmware/vpimg_es305b-NH.bin
 etc/firmware/wma9_dec_1.bin
 etc/wifi/wl1271-nvs.bin
 etc/wifi/wpa_supplicant.conf
-lib/egl/egl.cfg
 lib/egl/libGLES_android.so
 lib/hw/alsa.smi.so
 lib/hw/audio.a2dp.default.so

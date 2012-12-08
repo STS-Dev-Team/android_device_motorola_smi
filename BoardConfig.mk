@@ -22,6 +22,9 @@ BOARD_HAVE_NFC := true
 BOARD_USES_ALSA_AUDIO := true
 BUILD_WITH_ALSA_UTILS := true
 
+# Graphics
+BOARD_EGL_CFG := device/motorola/smi/prebuilt/egl.cfg
+
 # Connectivity - Wi-Fi
 USES_TI_MAC80211 := true
 ifdef USES_TI_MAC80211
