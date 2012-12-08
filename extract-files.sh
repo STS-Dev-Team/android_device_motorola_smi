@@ -8,7 +8,7 @@ DIR=`dirname $FILE`
     if [ ! -d $BASE/$DIR ]; then
 mkdir -p $BASE/$DIR
     fi
-cp /home/hiemanshu/razri/system/$FILE $BASE/$FILE
+adb pull /system/$FILE $BASE/$FILE
 done
 
 ./setup-makefiles.sh
