@@ -42,7 +42,7 @@ endif
 # Use boot tools to make Intel-formatted images
 DEVICE_BASE_BOOT_IMAGE := device/motorola/smi/blobs/boot.image
 DEVICE_BASE_RECOVERY_IMAGE := device/motorola/smi/blobs/recovery.image
-BOARD_CUSTOM_BOOTIMG_MK := external/razr-i-boot-tools/boot.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/motorola/smi/boottools/boot.mk
 
 # Recovery configuration
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
